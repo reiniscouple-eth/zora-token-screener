@@ -8,15 +8,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@zoralabs/coins-sdk": "github:zoralabs/coins-sdk",
+    "@zoralabs/coins-sdk": "^0.0.7",
+    "viem": "^1.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "viem": "^1.3.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.2",
-    "vite": "^4.4.9"
+    "vite": "^4.4.9",
+    "@vitejs/plugin-react": "^4.0.3"
   }
 }
