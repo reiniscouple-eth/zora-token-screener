@@ -3,11 +3,10 @@ import { getCreatedCoins } from '@zoralabs/coins-sdk';
 export async function getTokens(sortBy = 'marketCap') {
   try {
     const coins = await getCreatedCoins({
-      limit: 200,        // Pega os 200 tokens mais recentes
-      sortBy: sortBy     // Pode ser 'marketCap', 'volume', ou 'price'
+      limit: 200,
+      sortBy: sortBy
     });
 
-    // Transformar os dados para o formato que o app espera
     return coins.map((coin) => ({
       id: coin.address,
       name: coin.name,
