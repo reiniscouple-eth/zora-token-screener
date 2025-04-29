@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@zoralabs/coin": "^1.0.0",
+    "@zoralabs/coins-sdk": "github:zoralabs/coins-sdk",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "viem": "^1.3.0"
